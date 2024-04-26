@@ -1,0 +1,30 @@
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+button
+{
+    margin-top: 20%;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px solid gray;
+    border-radius: 5px;
+    /* background-color: rgb(243, 43, 243); */
+    transition: 400ms;
+    cursor: pointer;
+
+}
+
+button:hover{
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: 5px;
+    background-color: rgb(125, 123, 123);
+    transform:scale(1.1);
+}
